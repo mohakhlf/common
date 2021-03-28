@@ -2,11 +2,18 @@
   "name": "@mohakhlf/udemy-common",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": ["lib"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "del lib/*",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "typescript": "^4.2.3"
+  }
 }
