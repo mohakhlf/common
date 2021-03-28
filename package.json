@@ -1,5 +1,5 @@
 {
-  "name": "@mohakhlf/udemy-common",
+  "name": "@mohakhlf/common",
   "version": "1.0.4",
   "description": "",
   "main": "./lib/index.js",
